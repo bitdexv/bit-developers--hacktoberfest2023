@@ -13,8 +13,8 @@ const Footer = () => {
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
-                  <Image
-                    src="images/logo/logo-2.svg"
+                  {/* <Image
+                    src="/images/logo/Logo.png"
                     alt="logo"
                     className="w-full dark:hidden"
                     width={140}
@@ -26,16 +26,29 @@ const Footer = () => {
                     className="hidden w-full dark:block"
                     width={140}
                     height={30}
-                  />
+                  /> */}
+                  <span
+                    style={{
+                      background:
+                        "linear-gradient(135deg, rgba(25,101,130,1) 27%, rgba(150,151,57,0.9276960784313726) 37%, rgba(199,10,90,0.9669117647058824) 55%, rgba(199,10,46,0.9220938375350141) 64%)",
+                      WebkitTextFillColor: "transparent",
+                      WebkitBackgroundClip: "text",
+                      fontSize: "33px",
+                      fontWeight: "bolder",
+                    }}
+                    className="w-full dark:block"
+                  >
+                    BitDev.
+                  </span>
                 </Link>
                 <p className="mb-9 text-base font-medium leading-relaxed text-body-color">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                  Copyright ©️2023 BitDevelopers
                 </p>
                 <div className="flex items-center">
                   <a
                     href="/"
                     aria-label="social-link"
+                    target="_blank"
                     className="mr-6 text-[#CED3F6] hover:text-primary"
                   >
                     <svg
@@ -101,7 +114,7 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
-                      href="/"
+                      href="/blog"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
@@ -110,7 +123,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/pricing"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
@@ -119,7 +132,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/about"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
@@ -193,7 +206,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/about"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
@@ -208,7 +221,12 @@ const Footer = () => {
         <div className="bg-primary/10 py-8">
           <div className="container">
             <p className="text-center text-base text-body-color dark:text-white">
-              Template by UIdeck and <a href="https://nextjstemplates.com" rel="nofollow noopener">Next.js Templates</a>
+              <a
+                href="https://www.linkedin.com/in/mishra-nikhil0110/"
+                rel="nofollow noopener"
+              >
+                Developed By{"   "}NIKHIL MISHRA🚀
+              </a>
             </p>
           </div>
         </div>
