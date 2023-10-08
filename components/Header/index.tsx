@@ -78,7 +78,7 @@ const Header = () => {
                   }}
                   className="w-full dark:block"
                 >
-                  BitDevelopers
+                  BitDev.
                 </span>
               </Link>
             </div>
