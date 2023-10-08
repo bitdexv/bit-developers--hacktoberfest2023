@@ -23,30 +23,33 @@ const Hero = () => {
                       WebkitTextFillColor: "transparent",
                       WebkitBackgroundClip: "text",
                       fontSize: "53px",
+                      paddingRight:"20px",
                     }}
                   >
                     BitDevelopers
                   </span>{" "}
-                  <span style={{fontSize:"39px", fontWeight:"lighter"}}>
-                    Uniting Tech Titans, Innovators, and Tomorrow's Creators for
+                  <span style={{ }} className=" md:text-5xl">
+                    Uniting Tech Titans, and Innovators for
                     an Epic Development Odyssey!
                   </span>
                 </h1>
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                  Startup is free Next.js template for startups and SaaS
-                  business websites comes with all the essential pages,
-                  components, and sections you need to launch a complete
-                  business website, built-with Next 13.x and Tailwind CSS.
+                  Our mission is to foster collaboration and innovation in tech.
+                  We provide a space for experienced developers to contribute
+                  their skills, project owners to find talent, and students to
+                  learn and grow. With vibrant gradient aesthetics,
+                  BitDevelopers is where tech dreams take flight. Join us and
+                  shape the future of development.
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
-                    href="https://nextjstemplates.com/templates/saas-starter-startup"
+                    href="/"
                     className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
                     🔥 Get Pro
                   </Link>
                   <Link
-                    href="https://github.com/NextJSTemplates/startup-nextjs"
+                    href="https://github.com/bitdexv"
                     className="rounded-md bg-black/20 py-4 px-8 text-base font-semibold text-black duration-300 ease-in-out hover:bg-black/30 dark:bg-white/20 dark:text-white dark:hover:bg-white/30"
                   >
                     Star on GitHub
