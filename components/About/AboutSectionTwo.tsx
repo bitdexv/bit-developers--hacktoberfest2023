@@ -24,8 +24,7 @@ const AboutSectionTwo = () => {
                   Bug free code
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Crafting code which is as reliable as it is elegant. We understand the importance of clean, efficient code that stands the test of time.
                 </p>
               </div>
               <div className="mb-9">
@@ -33,8 +32,7 @@ const AboutSectionTwo = () => {
                   Premier support
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
+                  Exceptional support which is always there for you. We are committed to providing top-notch assistance to help you succeed.
                 </p>
               </div>
               <div className="mb-1">
@@ -42,8 +40,7 @@ const AboutSectionTwo = () => {
                   Next.js
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
-                  consectetur adipiscing elit setim.
+                  Unlocking the power of Next.js for your projects. With Next.js, we bring your ideas to life, ensuring a seamless and performant web experience.
                 </p>
               </div>
             </div>
