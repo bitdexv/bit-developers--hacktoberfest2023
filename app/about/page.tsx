@@ -7,7 +7,7 @@ const AboutPage = () => {
     <>
       <Breadcrumb
         pageName="About Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        description="Welcome to Bit Developers, where innovation meets code. We are a passionate software team dedicated to crafting cutting-edge solutions for the digital world. With a strong focus on SaaS applications and startup pages, we bring your ideas to life, one pixel at a time."
       />
       <AboutSectionOne />
       <AboutSectionTwo />
